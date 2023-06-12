@@ -112,6 +112,11 @@
       background-color: #222;  
       box-shadow: 0 0 20px #222;  
  }  
+.resetStyles {  
+      border: 3px solid #444;  
+      background-color: #FFFFFF;  
+      box-shadow: 0 0 20px #FFFFFF;  
+ }  
  sup {  
       margin: 0;  
       padding: 0;  
