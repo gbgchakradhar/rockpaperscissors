@@ -76,7 +76,10 @@ function game(userChoice) {
 }
 function reset(){
     userScore_span.innerHTML = 0;
-      computerScore_span.innerHTML = 0;
+    computerScore_span.innerHTML = 0;
+    const roundStatus = document.getElementById(user);
+    roundStatus.classList.add('resetStyles');
+    setTimeout(() => roundStatus.classList.remove('resetStyles'), 300);
 
 }
 function main() {
